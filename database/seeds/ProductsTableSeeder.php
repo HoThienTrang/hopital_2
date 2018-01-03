@@ -23,6 +23,5 @@ class ProductsTableSeeder extends Seeder
                 'price_id' => $priceIds->random()->id,
             ]);
         });
-
     }
 }
