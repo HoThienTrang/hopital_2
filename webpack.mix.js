@@ -29,5 +29,6 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .copyDirectory(NODE_MODULES + 'flot-orderbars', PATH_PUBLIC_COMMON + 'flot-orderbars')
    .copyDirectory(NODE_MODULES + 'bootstrap-daterangepicker', PATH_PUBLIC_COMMON + 'bootstrap-daterangepicker')
    .copyDirectory(NODE_MODULES + 'jquery', PATH_PUBLIC_COMMON + 'jquery')
+   .copyDirectory(NODE_MODULES + 'animate.css', PATH_PUBLIC_COMMON + 'animate')
    .copyDirectory(PATH_CSS + 'admin', 'public/admin/css')
-   .copyDirectory(PATH_JS + 'admin', 'public/admin/js').version();
+   .copyDirectory(PATH_JS + 'admin', 'public/admin/js');
